@@ -7,7 +7,8 @@ function add(happy, angry, sad, joy, title, body, callback) {
     sad: sad,
     joy: joy,
     title: title,
-    body: body
+    body: body,
+    day: day
   });
   newInput.save((error, result) => {
     callback(result);
