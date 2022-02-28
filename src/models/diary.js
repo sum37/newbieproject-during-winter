@@ -5,6 +5,7 @@ const schema = new mongoose.Schema({
     angry: String,
     sad: String,
     joy: String,
+    date: Date,
     title: String,
     body : String
   });
