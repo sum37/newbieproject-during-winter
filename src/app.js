@@ -4,10 +4,10 @@ const bodyParser = require("body-parser");
 const InputRouter = require("./routes/diary");
 
 const app = express();
-const port = 38000;
+const port = 38500;
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017/write', {
+mongoose.connect('mongodb://http://ssal.sparcs.org:38500/write', {
   useNewUrlParser : true,
   useUnifiedTopology : true
 })
